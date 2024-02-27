@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(6, 22, 2);   
+    min-height: 100vh;
+}
+.headerbody>h3{
+    border: 2px solid;
+    background-color: rgba(245, 231, 138, 0.834);
+    min-height: 10vh;
+    text-align: center;   
+    position: relative;
+    font-size: xx-large;
+    padding: 20px;
+    
+     
+}
+    
+.headercards .card1{
+    background-color: rgb(242, 212, 175);
+    width: 15vw;
+    min-height: 57vh;
+    
+    
+}
+.card1{
+margin-left: 20vw ;
+margin-top: 10vh;
+}
+.insidecard1{
+    
+   min-height: 45vh;
+   width: 13vw;
+   margin: 20px auto;
+   background-color: rgb(58, 142, 231);
+   position: relative;
+   top: 2vh;
+   
+   border-radius: 2vh;   
+}
+.insidecard1 img{
+    width: 12vw;
+    margin: 7px 7px;
+    border-radius: 2vh  
+}
+.content-card1>.capsules>span{
+    border: 2px solid;
+    border-radius: 2vh;
+    font-size: small;
+    
+    margin-left: 12px;
+    padding: 3px;
+
+}
+.content-card1>.text-card1>h3{
+    font-size: medium;
+    padding: 10px 10px;
+}
+.content-card1>.text-card1>p{
+    font-size: small;
+    padding: 0px 10px;
+}
+.headercards .card2{
+    background-color: bisque;
+    width: 15vw;
+    min-height: 57vh;
+    
+    
+}
+.card2{
+    margin-left: 20vw ;
+    margin-top: 10vh;
+    position: relative;
+   top: 100%;
+   left: 25vw;
+    transform:  translateY(-117%);
+    
+}
+.insidecard2{
+    
+    min-height: 45vh;
+    width: 13vw;
+    margin: 20px auto;
+    
+    position: relative;
+    top: 2vh;
+    
+    background-color: rgb(235, 196, 22);
+   border-radius: 2vh;   
+}
+.insidecard2 img{
+    width: 12vw;
+    margin: 7px 7px;
+    border-radius: 2vh  
+}
+.content-card2>.capsules>span{
+    border: 2px solid;
+    border-radius: 2vh;
+    font-size: small;
+    
+    margin-left: 12px;
+    padding: 3px;
+
+}
+.content-card2>.text-card-2>h3{
+    font-size: medium;
+    padding: 10px 10px;
+}
+.content-card2>.text-card-2>p{
+    font-size: small;
+    padding: 0px 10px;
+}
+.headercards .card3{
+    background-color: bisque;
+    width: 15vw;
+    min-height: 57vh;
+    
+    
+}
+.card3{
+    margin-left: 20vw ;
+    margin-top: 10vh;
+    position: relative;
+   top: 100%;
+   left: 47vw;
+    transform:  translateY(-234%);
+    
+}
+.insidecard3{
+    
+    min-height: 50vh;
+    width: 13vw;
+    margin: 20px auto;
+    
+    position: relative;
+    top: 2vh;
+   background-color: rgb(136, 222, 79);
+   border-radius: 2vh;   
+}
+.insidecard3 img{
+    width: 12vw;
+    margin: 7px 7px;
+    border-radius: 2vh  
+}
+.content-card3>.capsules>span{
+    border: 2px solid;
+    border-radius: 2vh;
+    font-size: small;
+    
+    margin-left: 12px;
+    padding: 3px;
+
+}
+.content-card3>.text-card-3>h3{
+    font-size: medium;
+    padding: 10px 10px;
+}
+.content-card3>.text-card-3>p{
+    font-size: small;
+    padding: 0px 10px;
+}
+.content-card2>.button>input{
+    background-color: rgb(241, 218, 84);
+    margin: 23px 60px;
+    border-radius: 20vh;
+    font-size: small;
+    padding: 3px;
+}
+.content-card3>.button>input{
+    background-color: rgb(144, 231, 139);
+    margin: 30px 58px;
+    border-radius: 20vh;
+    font-size: small;
+    padding:4px;
+    
+   
+}
+.content-card1>.button>input{
+    background-color: rgb(96, 162, 228);
+    margin: 23px 60px;
+    border-radius: 20px;
+    font-size: small;
+    padding: 3px;
+}
+.headercards>.card1:hover{
+    background-color: rgb(55, 119, 230);
+}
+.headercards>.card2:hover{
+    background-color: rgb(235, 218, 33);
+}
+.headercards>.card3:hover{
+    background-color: rgb(141, 240, 36);
+}
+.content-card1>.button>input:hover{
+    background-color: rgb(19, 123, 228);
+    color: rgb(3, 26, 80);
+    transition: 0.7s;
+
+}
+.content-card2>.button>input:hover{
+    background-color: rgb(243, 223, 8);
+    color: rgb(16, 11, 1);
+    transition: 0.7s;
+
+}
+.content-card3>.button>input:hover{
+    background-color: rgb(136, 248, 38);
+    color: rgb(3, 25, 3);
+    transition: 0.7s;
+
+}

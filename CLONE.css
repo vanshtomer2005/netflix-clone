@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    background-image: url(assets/pictures/IN-en-20240212-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    min-height: 95vh;
+    
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    background-position: center center;
+   
+    position: relative;
+}
+.box{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+.nav-bar{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    position: relative;
+    z-index: 10;
+
+}
+.nav-bar> img{
+    padding: 20px;
+}
+.nav-bar .btn{
+    background-color: rgb(23, 23, 23, 0.77);
+    padding: 6px 32px 7px 34px;
+    border: 1px solid rgba(255, 255, 255, 0.579);
+    margin: 10px;
+    color: white;
+    border-radius: 3px;
+}
+.nav-bar .btn-red{
+    background-color: red;
+    padding: 8px 21px 7px 19px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    border-color: rgba(23, 23 , 23 ,0.7);
+}
+.content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 30px;
+position: relative;
+z-index: 10;
+margin-top: 190px;
+height: 100%;
+gap: 20px;
+}
+.content> :nth-child(1){
+    font-size: 40px;
+    font-weight: bolder;
+}
+.content> :nth-child(2){
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.content> :nth-child(3){
+    font-size: 20px;
+    font-weight: 100;
+}
+.btn-size{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    font-weight: 550;
+    padding: 16px 30px 14px 20px;
+    border-radius: 6px;
+    border-color: rgb(23, 23, 23, 0.1);
+    margin: 0px 2px;
+}
+.btn-special{
+    border: 1px solid gray;
+    font-size: small;
+    font-weight: 100;
+    padding: 21px 171px 15px 13px;
+    background-color: rgb(23, 23, 23, 0.77);
+}
+.seperateline{
+    background-color: rgba(128, 128, 128, 0.321);
+    height: 7px;
+    width: 100vw;
+    }
+.section-2nd{
+    display: flex;
+    flex-direction: row;
+   color: white;
+   max-width: 70vw;
+   margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.section-2nd>div :nth-child(1){
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+
+}
+.section-2nd>div :nth-child(2){
+    color: white;
+    font-size: 24px;
+
+margin-left: 200px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    position: relative;
+    gap: 40px;
+  
+    
+}
+.first>div>span:nth-child(1){
+    color: white;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    display: flex;
+    margin-bottom: 18px;
+    word-spacing: -5px;
+}
+
+.first>div>span:nth-child(2){
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+
+   
+}
+.first img{
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+}
+.first video{
+    position: absolute;
+    top: 84px ;
+    right: 215px;
+    width: 385px;
+}
+.second{
+    display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+height: 61vh;
+margin-top: 100px;
+gap: 11px;
+margin-bottom: 15px;
+}
+.second-content{
+    
+    margin-bottom: 100px;
+}
+.second .second-content span:nth-child(1) {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    display: flex;
+    margin-bottom: 20px;
+}
+.second .second-content span:nth-child(2) {
+font-size: 24px;
+font-family: "Roboto", sans-serif;
+font-size: 21px;
+}
+.ccc img{
+    
+    width: 52px;
+    height: 70px;
+}
+
+.ccc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 125px;
+    left: 119px;
+    padding: 12px 81px 12px 11px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(128, 128, 128, 0.864);
+    border-radius: 10px;
+    height: 10vh;
+    gap: 15px;
+    width: 200px;
+}
+.img-box>div:nth-child(1){
+    color: white;
+}
+.ccc-cont>span:nth-child(1){
+    font-size: 15px;
+    
+    font-family: "Roboto", sans-serif;
+}
+.ccc-cont>span:nth-child(2){
+    color: rgb(28, 108, 221);
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    gap: 85px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+.third-img{
+    position: relative;
+}
+.third-img video{
+    position: absolute;
+    
+    top: 36px;
+    right: 101px;
+    width: 330px;
+
+}
+.third-img img{
+    position: relative;
+    z-index: 10;
+    height: 58vh;
+}
+.third>div span:nth-child(1){
+    
+    font-size: 45px;
+    font-weight: bolder;
+    display: flex;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.third>div span:nth-child(2){
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    
+    margin-bottom: 56px;
+    }
+    .fourth>div>span:nth-child(1){
+        font-size: 45px;
+        font-weight: bolder;
+        display: flex;
+        margin-bottom: 17px;
+        font-family: "Roboto", sans-serif;
+    
+    }
+    .fourth>div>span:nth-child(2){
+        font-size: 22px;
+        font-family: "Roboto", sans-serif;
+    }
+    .fourth img{
+        margin-top: 55px;
+        height: 60vh;
+    }
+    .fifth>div>span{
+        color: white;
+        font-weight: bolder;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        margin-top: 53px;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 20px;
+    
+        
+    }
+    .faq>.boxes{
+        background-color: rgba(128, 128, 128, 0.325);
+        width: 75vw;
+        height: 75px;
+        color: white;
+        font-size: x-large;
+        display: flex;
+        align-items: center;
+        margin: 9px auto;
+        padding-left: 20px;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+    }
+    .faq>.boxes:hover{
+        background-color: rgba(128, 128, 128, 0.553);
+        transition: 0.3s;
+    }
+    
+    .faq-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 55px;
+        font-family: "Roboto", sans-serif;
+    }
+        .faq-content>span:first-child{
+        text-align: center;
+        font-size: larger;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        
+    }
+    .faq-content .button{
+        width: 165px;
+        font-size: 20px;
+        height: 50px;
+       
+        margin: 10px 0px;
+    }
+    .faq-content .button-red-2{
+    background-color: red;
+    color: white;
+    border: 1px solid;
+    border-color: rgb(23, 23 ,23, 0.5);
+    border-radius: 5px;
+    height: 53px;
+    }
+    .faq-content .button-mail{
+    width: 375px;
+    background-color: rgba(23, 23, 23, 0.281);
+    border: 1px solid rgba(128, 128, 128, 0.757);
+    border-radius: 4px;
+    height: 52px;
+    padding-left: 15px;
+    }
+    .faq-content .button-mail::placeholder{
+        font-size: small;
+        color: rgba(255, 255, 255, 0.685);
+    }
+    .seperation-line{
+        height: 7px;
+        background-color: rgba(128, 128, 128, 0.39);
+        
+    }
+    .section-sep{
+        background-color: rgba(128, 128, 128, 0.286);
+        width: 100vw;
+        height:7px;
+    }
+    .material-symbols-outlined{
+        height: 35px;
+        width: 60px;
+        font-size: 40px !important;
+        font-weight: 100 !important;
+    }
+    .boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-bottom: 50px;
+        margin-left: 150px;
+        margin-top: 100px;
+        font-size: small;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    a{
+        color: rgba(255, 255, 255, 0.699);
+    display: grid;
+    grid-template-rows: 36px 0px 0px 0px;
+    }
+    

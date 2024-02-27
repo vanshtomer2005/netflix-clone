@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More about selector</title>
+</head>
+<style>
+    /*.box:first-child{
+        color: aqua;
+    }*/
+    .box::first-line{
+        background-color: blue;
+    }
+    .boxes *{
+        border: 2px solid black;
+        
+    }
+    [data-x]{
+        color: blanchedalmond;
+    }
+    .box:nth-child(odd){
+        background-color: blueviolet;
+    }
+    .box:nth-last-child(2){
+        background-color: brown;
+    }
+    .boxes::before{
+        content:  "name is vansh";
+    }
+    .boxes::after{
+        content: "ggic";
+    }
+ ::selection{
+    background-color: bisque;
+ }
+ .box::first-letter{
+    font-size: 55px;
+ }
+ input::placeholder{
+    color: brown;
+    font-size: 77px;
+    //overflow: auto;
+ }
+
+</style>
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia excepturi obcaecati similique nulla, asperiores alias quae quaerat modi ea odio repudiandae iusto, impedit aut nobis eum sit sint neque nam sapiente itaque vitae optio. Quaerat officia, possimus dicta doloribus delectus eius totam facere consequatur dolore in. Quos, minus! Ab autem impedit debitis necessitatibus accusantium, voluptates rem inventore, similique ex expedita voluptas quam eaque temporibus ea magni! Eos, unde corrupti. </div>
+        <div data-x="s" class="box">Hey i am a box </div>
+        <div class="box">Hey i am a box </div>
+        <input type="text" placeholder="enter the name">
+            </div>
+        
+</body>
+</html>

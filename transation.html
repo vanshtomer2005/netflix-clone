@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animationo</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 300px;
+            background-color: blueviolet;
+        }
+
+        .box {
+            border: 2px solid;
+            width: 100px;
+            height: 30px;
+           animation: mono 4s cubic-bezier(1,-0.03, 0, 1) 2s 3 running,
+                      nd  4s ease-in-out 2s 3 ;
+        }
+    
+        @keyframes mono {
+            from {
+                background-color: aqua;
+            }
+
+            to {
+
+                transform: translatex(1000px) translatey(20px);
+                background-color: blue;
+            }
+        @keyframes nd {
+            
+        
+                0%{transform: rotate(100deg)}
+                20%{transform: rotate(200deg)}
+                60%{transform: rotate(250deg)}
+                80%{transform: rotate(300deg)}
+                100%{transform:  rotate(400deg)}
+                
+            }
+
+           
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

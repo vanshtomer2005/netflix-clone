@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT BUBBLING</title>\
+    <style>
+        .child{
+            background-color: aqua;
+            border:  2px solid;
+            color: blue;
+            cursor: pointer;
+            padding: 14px;
+            margin: 14px;
+        }
+        .childcontainer{
+            background-color: rgb(206, 187, 223);
+            padding: 14px;
+            margin: 14px;
+        }
+        .container{
+            background-color: blueviolet;
+            padding: 14px;
+            margin: 14px;
+        }
+    
+        
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="childcontainer">
+            <div class="child">I am a class
+
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/Events.js"></script>
+</body>
+</html>

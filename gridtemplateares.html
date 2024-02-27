@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid template 2nd method</title>
+</head>
+<style>
+    *{
+    }
+    .counter {
+        border: 2px rgb(52, 52, 156) solid;
+        width: 150px;
+        
+        height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 3fr ;
+        column-gap: 15px;
+        row-gap: 2px;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: ;
+        align-items: center;
+    }
+    
+    
+    .item{
+        background-color: brown;
+        border: 2px solid;
+        width: 22px;
+        height: 20px;
+    
+        
+        
+ }
+ .item5{
+    align-self: start;
+    justify-self: end;
+ }
+</style>
+
+<body>
+    <div class="counter">
+
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+    </div>
+</body>
+
+</html>

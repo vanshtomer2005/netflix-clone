@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(37, 34, 34);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.outerframe{
+   
+    background-color: antiquewhite;
+    width: 384px;
+    height: 547px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    
+    border: 1px solid aqua;
+    border-radius: 18px;
+    background-color: rgb(144, 209, 211);
+    width: 323px;
+    height: 520px;
+    margin: 10px;
+    
+}
+.img1 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    
+}
+span{
+    
+   
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 3px;
+    color: rgb(79, 74, 67);
+    margin-left: 3%;   
+}
+p{
+    color: rgb(90, 85, 79);
+   
+    margin-left: 10px;
+    margin-top: ;
+}
+h1{
+    margin-left: 10px;
+}
+.button>input{
+    color: rgb(37, 37, 197);
+    background-color: rgb(95, 153, 252);
+    margin-left: 110px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
